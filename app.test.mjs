@@ -25,6 +25,7 @@ describe('GET /api', () => {
     it('should return status 200', async () => {
         try {
             const res = await axios.get('http://localhost:3000/');
+            expect(res.data).to.equal('Hello World');
             expect(res.status).to.equal(200);
           } catch (err) {
             throw err;
