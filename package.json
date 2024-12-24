@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha app.test.js"
+    "test": "mocha app.test.mjs"
   },
   "author": "kiran teja",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.9",
+    "chai-http": "^5.1.1",
     "express": "^4.21.2"
   },
   "type": "module",
